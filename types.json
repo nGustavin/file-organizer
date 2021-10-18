@@ -1,0 +1,88 @@
+[
+  {
+    "name": "image",
+    "extensions": [
+      ".png",
+      ".jpg",
+      ".jpeg",
+      ".gif",
+      ".jpgx",
+      ".svg",
+      ".webp"
+    ]
+  },
+  {
+    "name": "compressed",
+    "extensions": [
+      ".gz",
+      ".gzip",
+      ".zip",
+      ".7z",
+      ".tar.gz",
+      ".tag",
+      ".rar",
+      ".xz"
+    ]
+  }, 
+  {
+    "name": "video",
+    "extensions": [
+      ".mp4",
+      ".mkv"
+    ]
+  },
+  {
+    "name": "packages",
+    "extensions": [
+      ".deb",
+      ".AppImage"
+    ]
+  },
+  { 
+    "name": "data",
+    "extensions": [
+      ".csv",
+      ".json",
+      ".sql"
+    ]
+  },
+  {
+    "name": "executable",
+    "extensions": [
+      ".py",
+      ".bin",
+      ".exe",
+      ".sh",
+      ".bash"
+    ]
+  },
+  { 
+    "name": "fonts",
+    "extensions": [
+      ".ttf",
+      ".otf"
+    ]
+  },
+
+  {
+    "name": "dev",
+    "extensions": [
+      ".css", 
+      ".js",
+      ".tsx",
+      ".ts",
+      ".mjs"
+    ]
+  },
+  {
+    "name": "document",
+    "extensions": [
+      ".pdf",
+      ".rtf", 
+      ".txt",
+      ".doc",
+      ".docx",
+      ".ods"
+    ]
+  }
+]
