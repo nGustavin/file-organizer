@@ -8,12 +8,13 @@ Use the package manager [pip](https://pip.pypa.io/en/stable/) to install depende
 
 ```bash
 pip install -r requirements.txt
+```
 
 ## Usage
 
 This script searches for a file called types.json in your home directory, you need that file there with the following pattern:
 
-json
+```json
 [
   {
     "name": "image",
@@ -102,16 +103,19 @@ json
     ]
   }
 ]
-
+```
 Each name will be converted to a folder, and the array of extensions are the types of files that must be sent to that folder.
 
 You can change these names and extensions in any way you think is best, you should only keep the same file name and it needs to be in your home folder.
 
 
+### To run the script
 
-
-bash
+```bash
 python3 . #in the clone folder
+
+nohup python3 . & # Running in background
+```
 
 ## You can run this script as a service without any problems!
 
